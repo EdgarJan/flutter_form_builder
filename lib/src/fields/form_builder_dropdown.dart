@@ -299,8 +299,8 @@ class _FormBuilderDropdownState<T>
   @override
   void didUpdateWidget(covariant FormBuilderDropdown<T> oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (widget.items != oldWidget.items) {
-      setValue(initialValue);
-    }
+    // if (widget.items != oldWidget.items) {
+    //   setValue(initialValue);
+    // }
   }
 }
